@@ -21,7 +21,6 @@ const Enrolform = () => {
       message: '',
     },
 
-
     //  validate form 
     validationSchema: Yup.object({
       full_name: Yup.string().max(25, 'Name must be 25 characters or less').required('Please provide your name'),
@@ -52,7 +51,7 @@ const Enrolform = () => {
 
         if (response.ok) {
           // Form submission redirect to a Success Page
-          router.push('/success');
+          router.push('/successPage')
         } else {
           // Form submission failed, handle the error as needed
           console.error('Form submission failed.');

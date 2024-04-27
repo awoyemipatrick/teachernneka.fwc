@@ -5,7 +5,7 @@ import { motion as m } from 'framer-motion'
 import Confetti from 'react-confetti'
 
 
-const Success = () => {
+export default function Success () {
   const [pieces, setPieces] = useState(200)
 
   const stopConfetti = () => {
@@ -35,4 +35,3 @@ const Success = () => {
   )
 }
 
-export default Success

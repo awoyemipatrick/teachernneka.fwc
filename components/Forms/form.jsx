@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Form = () => {
+export default function Form () {
   return (
     <form className=' '>
       <input className='w-[50%] rounded-xl h-[40px] p-[10px] mr-[2.5rem] bg-[#f5f5f5] ' type="text " placeholder='Enter your email' />
@@ -9,4 +9,3 @@ const Form = () => {
   )
 }
 
-export default Form
