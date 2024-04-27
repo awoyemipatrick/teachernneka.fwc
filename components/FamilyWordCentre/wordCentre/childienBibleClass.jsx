@@ -10,7 +10,7 @@ import Image5 from '@/public/assets/word_centre/img5.png'
 import Image6 from '@/public/assets/word_centre/img6.png'
 
 
-const ChildienBibleClass = () => {
+export default function ChildienBibleClass () {
   return (
     <div className='md:mx-[2%] w-full md:p-6 gap-3 border shadow-xl rounded-xl leading-normal'>
       <h2 className='text-center font-bold text-2xl '>Children Bible and Leadership School</h2>
@@ -177,4 +177,3 @@ const ChildienBibleClass = () => {
   )
 }
 
-export default ChildienBibleClass

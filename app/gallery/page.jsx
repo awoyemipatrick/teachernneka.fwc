@@ -1,13 +1,10 @@
 import React from 'react'
-import Gallery from "@/components/Gallery/gallery"
-// import { Gallery } from "@/components/Gallery/gallery"
+
 
 const GalleryPage = () => {
   return (
     <div>
-      page
-      {/* <CloudinaryImg /> */}
-      <Gallery/>
+     <h1>Gallery Page</h1>
     </div>
   )
 }

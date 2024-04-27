@@ -1,11 +1,10 @@
-import { Hero, Book } from '@/components/BooksPage/hero'
+
 import React from 'react'
 
 const Books = () => {
   return (
     <div>
-      {/* <Book /> */}
-      <Hero />
+      <h1>Book Page</h1>
     </div>
   )
 }

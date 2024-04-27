@@ -29,7 +29,7 @@ const ImageList = [
   },
 ];
 
-const Hero = ({ handleOrderPopup }) => {
+export default function Hero ({ handleOrderPopup }) {
   const [imageId, setImageId] = React.useState(Book1);
   const [title, setTitle] = React.useState("Pre-Home coming: Parenting Handbook");
   const [description, setDescription] = React.useState(
@@ -127,4 +127,3 @@ const Hero = ({ handleOrderPopup }) => {
   );
 };
 
-export default Hero;
