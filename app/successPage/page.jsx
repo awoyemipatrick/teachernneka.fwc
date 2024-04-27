@@ -1,10 +1,11 @@
 // import Success from "../../components/success"
 
-
-export const SuccessPage = () => {
+const SuccessPage = () => {
   return (
     <div>
       Success
     </div>
   )
 }
+
+export default SuccessPage;
