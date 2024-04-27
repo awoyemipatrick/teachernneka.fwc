@@ -1,5 +1,4 @@
 "use client"
-
 import { Link } from "@nextui-org/link";
 import { useState } from "react";
 import { RiCloseFill, RiMenu2Fill } from "react-icons/ri"
@@ -32,7 +31,7 @@ export const Nav = () => {
           <ul className="md:flex hidden uppercase items-center gap-8  ">
             <NavLinks />
             <li>
-              <Link href={"/"} className="py-7 px-3 inline-block" passHref>
+              <Link href={"/"} className="py-7 px-3 inline-block" >
                 About Us
               </Link>
             </li>

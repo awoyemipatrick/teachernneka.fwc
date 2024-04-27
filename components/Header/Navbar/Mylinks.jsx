@@ -6,8 +6,8 @@ export const links = [
     name: "Explore",
     submenu: true,
     sublink: [
-      { name: 'Books', description: '', href: '/books', icon: BookIcon },
-      { name: 'Blog', description: '', href: '/blog', icon: BlogIcon },
+      { name: 'Books', description: '', href: '/books', icon: <BookIcon/> },
+      { name: 'Blog', description: '', href: '/blog', icon: <BlogIcon/> },
       { name: 'Gallery', description: '', href: '/gallery', icon: '' },
     ],
   },

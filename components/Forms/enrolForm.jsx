@@ -104,6 +104,7 @@ const Enrolform = () => {
                 onBlur={formik.handleBlur}
               />
             </div>
+            
 
             <div className='flex flex-col gap-2 my-4 shadow-2xl hover:shadow-xl'>
               <label className={"px-2"}

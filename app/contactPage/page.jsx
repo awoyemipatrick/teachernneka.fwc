@@ -1,5 +1,4 @@
-// import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
-import Enrolform from '@/components/Forms/enrolForm'
+// import Enrolform from '@/components/Forms/enrolForm'
 
 
 
@@ -11,7 +10,7 @@ export default function Contact() {
         
         </div>
         <div className=''>
-          <Enrolform />
+       Enrol form 
         </div>
       </div>
     </div>

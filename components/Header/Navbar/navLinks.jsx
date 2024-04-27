@@ -10,7 +10,7 @@ export const NavLinks = () => {
   return (
     <>
       {links.map((link) => (
-        <div key={link}>
+        <div key={link.name}>
           <div className="px-3 text-left md:cursor-pointer  group">
             <h1
               className="py-7 flex justify-between items-center md:pr-0 pr-5 group"

@@ -1,10 +1,10 @@
-import Success from "../../components/success"
+// import Success from "../../components/success"
 
 
 export const Page = () => {
   return (
     <div>
-      <Success/>
+      Success
     </div>
   )
 }
