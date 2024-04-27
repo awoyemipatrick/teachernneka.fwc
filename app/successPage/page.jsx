@@ -1,7 +1,7 @@
 // import Success from "../../components/success"
 
 
-export const Page = () => {
+export const SuccessPage = () => {
   return (
     <div>
       Success
