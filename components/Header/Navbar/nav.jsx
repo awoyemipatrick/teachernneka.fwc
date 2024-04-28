@@ -31,7 +31,7 @@ export const Nav = () => {
           <ul className="md:flex hidden uppercase items-center gap-8  ">
             <NavLinks />
             <li>
-              <Link href={"/"} className="py-7 px-3 inline-block" >
+              <Link href={"/about"} className="py-7 px-3 inline-block" >
                 About Us
               </Link>
             </li>

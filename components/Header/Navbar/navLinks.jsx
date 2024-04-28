@@ -4,6 +4,7 @@ import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icon
 import { Link } from "@nextui-org/link";
 import { links } from "@/components/Header/Navbar/Mylinks";
 
+
 export const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
@@ -38,7 +39,7 @@ export const NavLinks = () => {
                       key={i.name}
                       className="group relative flex items-center rounded-lg my-2.5 text-sm leading-6 hover:bg-gray-50 left-0"
                     >
-                      <div className="flex h-11 w-11 flex-none mr-2 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      <div className="flex h-11 w-11 flex-none mr-2 items-center justify-center rounded-lg">
                         {i.icon}
                       </div>
                       <div className="flex-auto">

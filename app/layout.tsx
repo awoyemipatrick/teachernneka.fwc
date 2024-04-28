@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
-// import { Navbar } from "@/components/navbar";
+import Script from "next/script";
 import { StickyButton } from "@/components/Button/stickyButton"
 import { Nav } from "@/components/Header/Navbar/nav"
 import { Link } from "@nextui-org/link";
@@ -34,16 +34,22 @@ export default function RootLayout({
 			<body
 				className={clsx(
 					"min-h-screen bg-background font-sans antialiased",
-					fontSans.variable
+					fontSans.variable,
 				)}
 			>
-				<Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
+				<Script id="ThemeSwitch" strategy="beforeInteractive">
+					{`if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
+  }`}
+				</Script>
+				<Providers themeProps={{ attribute: "class" }}>
 					<div className="relative flex flex-col h-screen">
-						{/* <Navbar /> */}
 						<Nav />
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
-							<StickyButton/>
+							<StickyButton />
 						</main>
 						<footer className="w-full flex items-center justify-center py-3">
 							{/* <Link

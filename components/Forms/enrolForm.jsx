@@ -15,7 +15,7 @@ const Enrolform = () => {
       full_name: '',
       phone_number: '',
       email: '',
-
+      parent_name: "",
       child_gender: '',
       recieve_method: '',
       message: '',
@@ -32,14 +32,22 @@ const Enrolform = () => {
       parent_name: Yup.string(),
       child_gender: Yup.string(),
       recieve_method: Yup.string(),
-      message: Yup.string().required('Please enter a message'),
+      message: Yup.string(),
     }),
 
 
 
     // Submit form to Formspree
     onSubmit: async (values, { setSubmitting }) => {
-      // console.log(values)
+    
+      // event.preventDefault();
+      // Assuming you have some form validation here
+      // Once validated, set the name and email and navigate to the success page
+      // For simplicity, skipping validation here
+      // setName(event.target.elements.name.value);
+      // setEmail(event.target.elements.email.value);
+
+      console.log(values)
       try {
         const response = await fetch('https://formspree.io/f/xqkrpppl', {
           method: 'POST',
@@ -51,7 +59,13 @@ const Enrolform = () => {
 
         if (response.ok) {
           // Form submission redirect to a Success Page
-          router.push('/successPage')
+          router.push({
+      pathname: '/successPage',
+      query: { 
+        name: values.full_name,
+        email: values.email,
+      },
+    });
         } else {
           // Form submission failed, handle the error as needed
           console.error('Form submission failed.');
@@ -68,7 +82,7 @@ const Enrolform = () => {
 
   return (
     <>
-      <m.div className={`container mx-auto w-full p-6 gap-3 border leading-10 shadow-xl rounded-xl `}>
+      <m.div className={`container mx-auto w-full p-6 gap-3 border leading-10 shadow-2xl rounded-xl `}>
         <form className='flex flex-col ' onSubmit={formik.handleSubmit}>
           <h1 className='text-xl font-medium m-10  underline'>REGISTER YOUR CHILD/REN</h1>
           <div className={''}>
@@ -107,8 +121,10 @@ const Enrolform = () => {
             
 
             <div className='flex flex-col gap-2 my-4 shadow-2xl hover:shadow-xl'>
-              <label className={"px-2"}
-                htmlFor="parent_name">Parent Name</label>
+              <label className={`px-2 ${formik.touched.parent_name && formik.errors.parent_name ? 'text-red-500' : ''}`}
+                htmlFor="parent_name">
+                {formik.touched.parent_name && formik.errors.parent_name ? formik.errors.parent_name : 'Parent Name'}
+                </label>
               <input type="text" name='parent_name'
                 className='focus:border-1 hover:border-blue-400 border-blue-500 rounded-xl m-2 '
                 value={formik.values.parent_name}

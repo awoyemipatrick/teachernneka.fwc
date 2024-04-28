@@ -17,8 +17,8 @@ export const links = [
     submenu: true,
     sublink: [
       { name: 'Word Centre', description: '', href: '/fwc', icon: '' },
-      { name: 'Children Bible Class', description: '', href: '/cbs', icon: '' },
-      { name: 'Community Events', description: '', href: '/event', icon: '' },
+      { name: 'Children Bible Class', description: '', href: '/childrenBibleClass', icon: '' },
+      { name: 'Community Events', description: '', href: '/events', icon: '' },
       { name: 'Christian Resort', description: '', href: '/resort', icon: '' },
     ],
   },
@@ -26,13 +26,13 @@ export const links = [
     name: "Training",
     submenu: true,
     sublink: [
-      { name: 'Bible Base Parenting', description: '', href: '/bbparenting', icon: '' },
+      { name: 'Bible Base Parenting', description: '', href: '/bibleBaseParenting', icon: '' },
 
       { name: 'Parenting Courses', description: '', href: '/parentingCourse', icon: '' },
 
-      { name: 'The Dream Training', description: '', href: '/dream-training', icon: '' },
+      { name: 'The Dream Training', description: '', href: '/dreamTraining', icon: '' },
 
-      { name: 'The Challenges Of The Workplace', description: '', href: '/wpChallenge', icon: '' },
+      { name: 'The Challenges Of The Workplace', description: '', href: '/workPlaceChallenge', icon: '' },
     ],
   },
 ];
