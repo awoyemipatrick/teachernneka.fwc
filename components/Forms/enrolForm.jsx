@@ -8,7 +8,6 @@ import { motion as m } from 'framer-motion';
 const Enrolform = () => {
   const router = useRouter()
 
-
   // Formik logic
   const formik = useFormik({
     initialValues: {

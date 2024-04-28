@@ -1,15 +1,14 @@
-import { useRouter } from 'next/navigation';
-import Success from "../../components/success"
+import SuccessRoute from "../../components/Success/successL";
+
 
 const SuccessPage = () => {
-  const router = useRouter();
-  const { name, email } = router.query;
-
+  
   return (
     <div>
-      <Success name={name} email={email} />
+      <SuccessRoute/>
     </div>
   )
 }
+
 
 export default SuccessPage;
