@@ -1,6 +1,6 @@
 "use client"
 import { useRouter } from 'next/navigation';
-import Success from '../../components/Success/success';
+import Success from "../../components/Success/success"
 
 const SuccessPage = () => {
   const router = useRouter();
@@ -12,6 +12,5 @@ const SuccessPage = () => {
     </div>
   )
 }
-
 
 export default SuccessPage;
