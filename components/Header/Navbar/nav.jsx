@@ -44,11 +44,11 @@ export const Nav = () => {
 
       {/* Mobile nav */}
 
-      <nav className=" flex items-center justify-between ">
+      <nav className=" flex items-center justify-between">
         <div className="flex items-center font-medium justify-between">
 
           <ul
-            className={`md:hidden fixed w-full top-[8%] left-2 z-50
+            className={`md:hidden fixed w-[60%] top-0 left-0 rounded-r-xl z-20 text-white light:text-black bg-black/75
             transform transition-all duration-300 ${open ? "translate-x-0" : "-translate-x-full"}`}
           >
             <NavLinks />

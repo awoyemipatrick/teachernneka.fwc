@@ -13,7 +13,7 @@ const SocialMediaLinks = () => {
 
   return (
     <div
-      className={`fixed ml-3 left-0 top-1/2 transform -translate-y-1/2 transition-transform duration-300`}
+      className={`fixed ml-3 left-0 top-1/2 transform -translate-y-1/2 transition-transform duration-300 z-10`}
     >
       <div className="flex flex-col items-center space-y-4">
         <a href="#" className=" items-center border border-black dark:border-white rounded-full p-0.5 hover:scale-125 transition-all ease duration-200">
