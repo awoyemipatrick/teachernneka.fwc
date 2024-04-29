@@ -6,7 +6,7 @@ export const links = [
     name: "Explore",
     submenu: true,
     sublink: [
-      { name: 'Books', description: '', href: '/books', icon: <BookIcon/> },
+      { name: 'Books', description: '', href: '/book', icon: <BookIcon/> },
       { name: 'Blog', description: '', href: '/blog', icon: <BlogIcon/> },
       { name: 'Gallery', description: '', href: '/gallery', icon: '' },
     ],
@@ -16,7 +16,7 @@ export const links = [
     name: "Family Word Centre",
     submenu: true,
     sublink: [
-      { name: 'Word Centre', description: '', href: '/fwc', icon: '' },
+      { name: 'Word Centre', description: '', href: '/wordCentre', icon: '' },
       { name: 'Children Bible Class', description: '', href: '/childrenBibleClass', icon: '' },
       { name: 'Community Events', description: '', href: '/events', icon: '' },
       { name: 'Christian Resort', description: '', href: '/resort', icon: '' },

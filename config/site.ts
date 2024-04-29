@@ -69,6 +69,6 @@ export const siteConfig = {
 		tiktok: "",
 		linkedn: "",
 		email: '',
-		youtube: 'https://youtube.com/codebucks',
+		youtube: '',
 	},
 };
