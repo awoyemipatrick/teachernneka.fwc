@@ -1,19 +1,35 @@
 ---
-title: "consectetur adipiscing elit"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2024-03-16T05:35:07.322Z"
+title: "Here's a bit about Me"
+excerpt: "My name is Nneka Anyachebelu, and I am married to Revd. Uche Anyachebelu of the Anglican communion with a son and three daughters.
+
+I worked in the financial industry for 13 years before stepping out to start the Family Word Centre, a ministry dedicated to children, parenting and creative ways of teaching and expressing God’s Word."
+coverImage: "/assets"
+date: "2024-03-22T05:35:07.322Z"
 author:
   name: Teacher Nneka
-  picture: "/assets/blog/authors/jj.jpeg"
+  picture: "/assets"
 ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+  url: "/assets"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+My name is Nneka Anyachebelu, and I am married to Revd. Uche Anyachebelu of the Anglican communion with a son and three daughters.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+I worked in the financial industry for 13 years before stepping out to start the Family Word Centre, a ministry dedicated to children, parenting and creative ways of teaching and expressing God’s Word.
 
-## Lorem Ipsum
+My goal is to help busy parents with the spiritual parenting of their children by teaching and providing practical resources for them.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+And for the children, my goal is to see all children come to the full knowledge of God through memorable encounters. This desire comes from my experience as a child.
+
+I met God at 8. But I didn’t just meet Him; I had an encounter. I disconnected from my spiritual life at 12, but I did not disconnect from the encounter.  It stayed with me all those years even when I strayed away so far from God.
+
+I did not reconnect until I was 33. It was like walking back Home. I knew He never moved, I was the one that moved and it was easy to reconnect.
+
+SPEAKING ENGAGEMENTS
+
+I speak nationally at conferences and churches on subjects related to Bible-based parenting in a secular world.
+
+My talks wake parents up to the reality of the challenges their children are facing and will face. I empower them with an understanding of what they can do in response and motivate them with practical  steps and resources on how to nurture their children and teens spiritually.
+
+To inquire about having me speak at your conference, church, or other event, please contact us on 08181953684 or <familywordcentrelekki@gmail.com>
+
+Through this blog I write short articles to help parents with the spiritual development of their children. Check in every Friday for tools that you can use to equip yourself and your children for the long walk of life.

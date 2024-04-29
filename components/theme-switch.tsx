@@ -38,6 +38,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 		onChange,
 	});
 
+	
 	return (
 		<Component
 			{...getBaseProps({

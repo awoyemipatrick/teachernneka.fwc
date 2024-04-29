@@ -9,7 +9,17 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        instagram: {
+          blue: '#405DE6',
+          purple: '#833AB4',
+          pink: '#E1306C',
+          yellow: '#FDCB58',
+          orange: '#FD9726',
+        },
+      },
+    },
   },
   darkMode: "class",
   plugins: [

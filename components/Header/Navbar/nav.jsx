@@ -58,6 +58,9 @@ export const Nav = () => {
               </Link>
             </li>
             <ThemeSwitch className="ml-3" />
+           
+              <SocialLinks className="flex-col" />
+          
           </ul>
 
           <ul className=" md:flex items-center justify-center gap-2 mx-2">

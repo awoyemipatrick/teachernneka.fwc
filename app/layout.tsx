@@ -6,6 +6,7 @@ import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import Script from "next/script";
 import { StickyButton } from "@/components/Button/stickyButton"
+import SocialMediaLinks from "@/components/SocialLink/socialMedia"
 import { Nav } from "@/components/Header/Navbar/nav"
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
@@ -48,10 +49,12 @@ export default function RootLayout({
 					<div className="relative flex flex-col h-screen">
 						<Nav />
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+							<SocialMediaLinks />
 							{children}
 							<StickyButton />
 						</main>
 						<footer className="w-full flex items-center justify-center py-3">
+							
 							{/* <Link
 								isExternal
 								className="flex items-center gap-1 text-current"

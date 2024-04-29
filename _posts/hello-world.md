@@ -1,13 +1,13 @@
 ---
 title: "At imperdiet dui accumsan"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/hello-world/cover.jpg"
-date: "2024-03-16T05:35:07.322Z"
+coverImage: "/assets"
+date: "2024-03-19T05:35:07.322Z"
 author:
   name: Teacher Nneka
-  picture: "/assets/blog/authors/tim.jpeg"
+  picture: "/assets"
 ogImage:
-  url: "/assets/blog/hello-world/cover.jpg"
+  url: "/assets"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
