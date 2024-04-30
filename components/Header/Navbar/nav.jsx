@@ -48,10 +48,12 @@ export const Nav = () => {
         <div className="flex items-center font-medium justify-between">
 
           <ul
-            className={`md:hidden fixed w-[60%] top-0 left-0 rounded-r-xl z-20 text-white light:text-black bg-black/75
+            className={`md:hidden fixed w-[60%] top-0 pt-[12%] left-0 rounded-r-xl z-20 text-white light:text-black bg-black/75
             transform transition-all duration-300 ${open ? "translate-x-0" : "-translate-x-full"}`}
           >
-            <NavLinks />
+            <li className="" >
+              <NavLinks />
+            </li>
             <li>
               <Link href={"/about"} className="py-7 px-3 inline-block">
                 About Us
